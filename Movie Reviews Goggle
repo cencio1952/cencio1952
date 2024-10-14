@@ -4,7 +4,6 @@
 ! author: Vincenzo Camparada
 
 $discard
-$boost,site=imdb.com
 $boost,site=quinlan.it
 $boost,site=filmpost.it
 $boost,site=cinematographe.it
