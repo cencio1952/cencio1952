@@ -1,0 +1,16 @@
+! name: Musica
+! description: Limit search to popular music review sites
+! public: true
+! author: Vincenzo Camparada
+
+$discard
+$boost,site=jamtv.it
+$boost,site=faroutmagazine.co.uk
+$boost,site=sentireascoltare.com
+$boost,site=ultimateclassicrock.com
+$boost,site=besteveralbums.com
+$boost,site=ondarock.it
+$boost,site=albumoftheyear.org
+$boost,site=pitchfork.com
+$boost,site=allmusic.com
+$boost,site=rateyourmusic.com
