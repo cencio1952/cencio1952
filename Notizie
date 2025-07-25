@@ -1,0 +1,13 @@
+! name: Notizie
+! description: Limit search to popular italian movie sites
+! public: true
+! author: Vincenzo Camparada
+
+$discard
+$boost,site=theguardian.com
+$boost,site=nytimes.com
+$boost,site=ilpost.it
+$boost,site=editorialedomani.it
+$boost,site=ilmanifesto.it
+$boost,site=corriere.it
+$boost,site=repubblica.it
